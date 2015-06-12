@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main()
 {
     int32_t i = 0;
