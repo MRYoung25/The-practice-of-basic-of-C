@@ -19,5 +19,9 @@ int main()
     printf("%d\n", a ^ b);
     int f = 8;
     printf("%d\n", f >> 1);
+    uint32_t color = 0xFFFEFAFB;
+    uint32_t tmp = color & 0x00FF0000;
+    uint8_t red = tmp >> 16;
+    printf("%d\n", red);
     return 0;
 }
